@@ -113,7 +113,7 @@ section {
 header {
   z-index: 999;
   position: fixed;
-  background: blue;
+  background: #3a6cf4;
   top: 0;
   left: 0;
   width: 100%;
@@ -125,7 +125,7 @@ header {
 }
 
 header.sticky {
-  background: blue;
+  background: #3a6cf4;
   padding: 10px 200px;
   
 }
