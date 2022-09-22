@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <script src="https://kit.fontawesome.com/5a5234c63a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
 </head>
 
 <body>
@@ -252,6 +255,22 @@
             </div>
         </section>
 
+        <div class="title reveal">
+            <h2 class="section-title">Git Calender</h2>
+        </div>
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+
+        <div class="title reveal">
+            <h2 class="section-title">Git Stats</h2>
+        </div>
+        <p align="center">
+            <img alt="Shreyash Stars"
+                src="https://github-readme-stats.vercel.app/api?username=loki0925&show_icons=true&theme=radical">
+        </p>
+
         <section class="contact" id="contact">
             <div class="title reveal">
                 <h2 class="section-title">Contact Me</h2>
@@ -330,6 +349,11 @@
     <!-- FOOTER -->
 
     <script src="script.js"></script>
+    <script>
+        GitHubCalendar(".calendar", "loki0925");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "loki0925", { responsive: true });
+    </script>
 
 </body>
 
