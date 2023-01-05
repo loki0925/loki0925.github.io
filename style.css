@@ -1501,7 +1501,7 @@ body {
 
 
 @media (max-width: 600px){
-
+  
   header .navigation.active {
     z-index: 888;
     position: fixed;
